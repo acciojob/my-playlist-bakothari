@@ -1,53 +1,22 @@
-/*  your css code here. If applicable */
-#my-playlist{
-	background-color : white ;
-	border : 1px solid black;
-	border-radius : 5px;
-	
-}
-
-li{
-	list-style-type : none;
-}
-a{
-	text-decoration : none;
-	color : black;
-}
-h1,h2{
-	text-align : center;
-}
-body{
-	background-color: rgb(204, 204, 204);
-
-}
-.b{/* Styling for the playlist container */
+/* Body background color */
 #my-playlist {
     background-color: white;
     border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
-    width: fit-content;
-    margin: 20px auto;
+     width: 550px;
+  
 }
-
-/* List styles */
-li {
-    list-style-type: none;
-    margin: 5px 0;
+h1,h2{
+	text-align: center;
 }
-
-a {
-    text-decoration: none;
-    color: black;
+li{
+	list-style-type :none
 }
-
-/* Header and section headings */
-h1, h2 {
-    text-align: center;
-    margin: 10px 0;
+a{
+	text-decoration : none;
+	color : black
 }
-
-/* Body background color */
 body {
     background-color: rgb(204, 204, 204);
     font-family: Arial, sans-serif;
@@ -55,7 +24,7 @@ body {
 
 /* Container for video and audio players */
 .b {
-
+    background-color: white;
     border: 1px solid black;
     border-radius: 5px;
     padding: 20px;
@@ -65,20 +34,19 @@ body {
 
 /* Video player styling */
 .player_one {
-    background-color: rgb(255, 255, 255);
-    width: 520px;
+    background-color: rgb(255, 255, 255); /* Explicitly set white background */
+    width: 550px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
+    display: block; /* Ensures proper alignment */
+    margin: 0 auto; /* Centers the player */
 }
 
 /* Audio player styling */
 .player_two {
-    background-color: rgb(255, 255, 255);
-    width: 510px;
+    background-color: rgb(255, 255, 255); /* Explicitly set white background */
+    width: 550px;
     border-radius: 10px;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 20px;
+    margin: 10px auto 0 auto; /* Centers the player and adds spacing */
 }
-
-	
-
