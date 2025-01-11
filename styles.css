@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+#my-playlist{
+	background-color : white ;
+	border : 1px solid black;
+	border-radius : 5px;
+	
+}
+
+li{
+	list-style-type : none;
+}
+a{
+	text-decoration : none;
+	color : black;
+}
+h1,h2{
+	text-align : center;
+}
+body{
+	background-color: rgb(204, 204, 204)
+}
+.b{
+	background-color : white;
+	border :1px solid black;
+	border-radius :  5px
+
+}
+.player_one{
+
+	width: 550px;
+	
+	padding: 20px;
+}
+.player_two{
+margin :5px;
+	width: 550px;
+	
+	padding: 20px;
+}
