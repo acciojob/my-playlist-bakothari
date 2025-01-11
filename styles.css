@@ -55,7 +55,7 @@ body {
 
 /* Container for video and audio players */
 .b {
-    background-color: white;
+
     border: 1px solid black;
     border-radius: 5px;
     padding: 20px;
@@ -66,7 +66,7 @@ body {
 /* Video player styling */
 .player_one {
     background-color: rgb(255, 255, 255);
-    width: 550px;
+    width: 520px;
     border-radius: 10px;
     padding: 10px;
 }
@@ -74,26 +74,11 @@ body {
 /* Audio player styling */
 .player_two {
     background-color: rgb(255, 255, 255);
-    width: 550px;
+    width: 510px;
     border-radius: 10px;
     padding: 10px;
     margin-top: 10px;
 }
 
-	background-color : white;
-	border :1px solid black;
-	border-radius :  5px
-
-}
-.player_one{
-
-	width: 550px;
 	
-	padding: 20px;
-}
-.player_two{
-margin :5px;
-	width: 550px;
-	
-	padding: 20px;
-}
+
